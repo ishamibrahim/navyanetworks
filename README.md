@@ -169,8 +169,46 @@ Delete the specified permission
 
 ---
 
+### Failures
+
+__Authentication Failure__ 
+
+Status - 401
+
+```json
+{
+  "error_code": "invalid_credentials",
+  "message": "Invalid credentials"
+}
+```
+
+__No Authentication__
+
+Status - 400
+
+```json
+{
+  "error_code": "invalid_auth_header",
+  "message": "Invalid authorization. Use an auth header"
+}
+``` 
+
+__Not found__
+Status - 404
+
+```json
+{
+  "message": "Does not exist",
+  "status": "not_exist"
+}
+```
+
+
+---
+
 <h3> Static User Credentials </h3>
 usename : `navya`
+
 password : `dfd8cc06-74bb-43d9-9018-3a9d4513e932`
 
 ---
