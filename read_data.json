@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "roles": [
+        "role1",
+        "role3"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "role1",
+      "permissions": ["perm1", "perm5"]
+    },
+    {
+      "id": "role3",
+      "permissions": ["perm6", "perm7"]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "perm1",
+      "name": "Can Check Balance"
+    },
+    {
+      "id": "perm5",
+      "name": "Can Deposit"
+    },
+    {
+      "id": "perm6",
+      "name": "Can Transfer"
+    },
+    {
+      "id": "perm7",
+      "name": "Can withdraw"
+    }
+  ]
+}
