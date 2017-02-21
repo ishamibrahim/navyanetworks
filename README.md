@@ -167,3 +167,20 @@ Delete the specified permission
 }
 ```
 
+---
+
+<h3> Static User Credentials </h3>
+usename : `navya`
+password : `dfd8cc06-74bb-43d9-9018-3a9d4513e932`
+
+---
+
+<h2> Set up </h2>
+- git clone the __navyanetworks__ repo
+- install pip
+- install virtualenv or virtualenvwrapper
+- `pip install -r requirements.txt`
+- `export PYTHONPATH=<navyanetworks folder path>:$PYTHONPATH`
+- `python runserver.py`
+
+
